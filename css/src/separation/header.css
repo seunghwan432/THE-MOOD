@@ -1,0 +1,49 @@
+/* header.css */
+.header_pc{position:fixed; top:0; padding:0 60px 0 60px;   box-sizing:border-box; width:100%; height:80px;
+    border-bottom:1.5px solid #dac9c9; box-shadow:0 0 0 0.5px #e1dcd9;
+    background-color:rgb(255, 255, 255); 
+    z-index:100;}
+a{text-decoration: none; color:#000;}
+.logo_wrap{float:left; padding-top:20px;  width:107px;  height:58px;
+    text-align:center;}
+.logo_wrap img{width:100%;}
+
+.main_nav_pc{float:left; width:calc(100% - 200px); height:100%;
+   }
+
+/* 테블릿 메뉴 */
+.main_nav_t{position: relative; margin-top:27.5px; width:30px;
+    cursor: pointer; 
+    display:none; z-index:1000;}
+    
+.nav_bar{margin-bottom:5px; width:30px; height:5px; border-radius:100px;
+    background-color:#000;}
+
+.main_nav_wrap_t{position:fixed; top:0; left:-250px;  padding-top:90px; width:250px; height:100vh; 
+    background-color:rgb(255, 255, 255); box-shadow:1px 1px 10px 0.3px #e1dcd9;
+    display:none; z-index:101; }
+.main_nav_wrap_t:before, .main_nav_wrap_t::before{content:" "; display: block;
+    position: absolute; z-index: -1; top: 0; left: 0; margin-left:-10px;
+    width: 10px; height: 100%; background-color:inherit;}
+
+.main_nav_wrap_t li{margin-bottom:20px; width:120px; cursor: pointer; border-radius:50%;}
+.main_nav_wrap_t li:hover{background-color:#e1dcd9cb;}
+
+
+.main_nav_pc_wrap{position: relative; margin:auto; width:600px; height:100%;}
+
+.main_nav_pc_wrap li{float:left; width:150px; 
+    text-align:center; line-height:110px;
+    color:#000;
+    cursor:pointer;}
+.main_nav_pc_wrap li:nth-child(1){height:calc(100%);}
+.main_nav_pc_wrap li:nth-child(2){height:calc(100%);}
+.main_nav_pc_wrap li:nth-child(3){height:calc(100%);}
+.main_nav_pc_wrap li:nth-child(4){height:calc(100%);}
+
+.under_line{position: absolute; top:70px;   width:25%; height:0.5px; 
+    background-color:#000; 
+    transition:all 300ms ease; transform:scale(0.8); display:none;}
+
+
+

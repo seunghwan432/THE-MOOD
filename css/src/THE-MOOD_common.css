@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+
+
+@import url("./separation/header.css");
+@import url("./separation/section.css");
+@import url("./separation/footer.css");
+@import url("./separation/responsive/pc_small.css");
+@import url("./separation/font.css");
+
+
+@font-face { font-family:'PT'; src: url("../../font/PT_Sans-Narrow-Web-Regular.ttf")
+    format('truetype'); } 
+@font-face { font-family:'PT-B'; src: url("../../font/PT_Sans-Narrow-Web-Bold.ttf")
+    format('truetype'); }
+@font-face { font-family:'JUA'; src: url("../../font/Jua-Regular.ttf");}
